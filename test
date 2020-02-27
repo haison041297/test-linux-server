@@ -1,3 +1,5 @@
 this is just a test
 this is another line of the file test
 this is anothe line of the file test with the word anothe spelled wrong
+
+There was a problem when trying to push the current repository to the remote repository. What I did was creating a new repository on the remote git server. However there was an option to create a README file that describes the repository. This basically the first commit of that repository and therefore, when you try to push your local repository to the remote repository, there are going to be a branch conflict because there are 2 "master" branch that are completely different from each other (created at a different time, etc.)
